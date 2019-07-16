@@ -427,6 +427,7 @@ blockquote p {
 	margin: 30px 0 0 0;
 	opacity: 0;
 	visibility: hidden;
+	color:#FFA500;
 	position: absolute;
 	min-width:190px;
 	top: 66px;
@@ -438,6 +439,7 @@ blockquote p {
 }
 .nav-holder nav li:hover > ul {
 	opacity: 1;
+	color:#FFA500;
 	visibility: visible;
 	margin: 0;
 }
@@ -450,12 +452,14 @@ blockquote p {
 }
 .nav-holder nav li ul li:hover  > ul  {
 	opacity: 1;
+	color:#FFA500;
 	visibility: visible;
 	margin-right:0px;
 }
 .nav-holder nav li ul li {
 	width:100%;
 	float:left;
+	color:#FFA500;
 	height:auto;
 	position:relative;
 }
@@ -466,17 +470,17 @@ blockquote p {
     text-transform: uppercase;
     font-weight: bold;
     line-height: 25px;
-    color: #232D38;
+    color:  #FFA500;
 	-webkit-transition: all 100ms linear;
     transition: all 100ms linear;
 }
 .nav-holder nav li a.act-link   , .nav-holder nav li a:hover{
     
    
-    color: #999;
+    color: #FFA500;
 }
 .nav-holder nav li ul a {
-	color:#fff;
+	color:#FFA500;
 	float:left;
 	width:100%;
 	font-size:20px;
@@ -486,16 +490,19 @@ blockquote p {
 }
 .nav-holder nav li a:before {
 	content:'';
+	color:#FFA500;
 	position:absolute;
 	top:-24px;
 	left:0;
 	width:0;
-	background:#292929;
+	background:#FFA500;
 	height:3px;
 }
 .nav-holder nav li a.act-link:before {
+	color:#FFA500;
 	width:100%;
 }
+
 .nav-button-wrap {
 	 
 	display:none;
@@ -1446,7 +1453,7 @@ blockquote p {
 	width:100%;
 }
 .home-main_title_item h4 {
-	color: #fff;
+	color:#FFA500;
 	text-transform:uppercase;
 	font-size:30px;
 	letter-spacing:2px;
@@ -1456,11 +1463,11 @@ blockquote p {
 .home-main_title_item p {
 	font-size: 20px;
 	margin-bottom:20px;
-	color: #fff;
+	color:#FFA500;
 	max-width:450px;
 } 
 .home-main_title_item h2 {
-	color: #fff;
+	color:#FFA500;
 	font-weight:700;
 	font-size:44px;
 	text-align:left;
@@ -1475,6 +1482,11 @@ blockquote p {
     width: 50px;
     height: 1px;
     background: #fff;
+}
+.home-main_title_item img{
+    width: 260px;
+    
+   
 }
 .slider-mask {
 	position:absolute;
